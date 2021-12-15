@@ -24,7 +24,7 @@ class Gui():
         plus = 250
 
         for i in data:
-            self.data.append([int(i[0])*10 + plus, 500 - int(i[1])*10 - plus])
+            self.data.append([int(i[0])*2 + plus, 500 - int(i[1])*2 - plus])
 
     def lines(self) -> None:
         self.canvas.create_rectangle(0,0,501,501, fill='white', outline='white')
